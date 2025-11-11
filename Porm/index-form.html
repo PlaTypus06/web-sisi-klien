@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="formPengisian">
+      <div class="Head">
+        <h2>FORM ISI DATA DIRI</h2>
+      </div>
+      <div class="form">
+        <form>
+          <div class="text-nama">
+            <label for="NIM"></label><br />
+            <input type="text" placeholder="NIM" name="NIM" id="NIM" /><br />
+            <label for="Nama"></label><br />
+            <input type="text" placeholder="Nama" name="Nama" id="Nama" />
+          </div>
+          <div class="radio">
+            <p>Jenis Kelamin</p>
+            <div class="radio-input">
+              <input
+                type="radio"
+                id="JenisKelamin"
+                name="JenisKelamin"
+                value="Laki - Laki" />
+              <label for="Laki - laki" class="laki">laki - Laki</label>
+              <input
+                type="radio"
+                id="JenisKelamin"
+                name="JenisKelamin"
+                value="Perempuan" />
+              <label for="Perempuan" class="perempuan">Perempuan</label>
+            </div>
+          </div>
+          <section class="kedua">
+            <div class="TanggalLahir">
+              <label for="TanggalLahir">Tanggal Lahir</label>
+              <input type="date" id="TanggalLahir" name="TanggalLahir" />
+            </div>
+            <div class="KotaLahir">
+              <label for="KotaLahir">Kota Lahir:</label>
+              <select id="KotaLahir" name="KotaLahir">
+                <option value="Buleleng">Buleleng</option>
+                <option value="Tabanan">Tabanan</option>
+                <option value="Denpasar">Denpasar</option>
+              </select>
+            </div>
+          </section>
+          <section class="ketiga">
+            <div class="alamat">
+              <p>Alamat Tempat Tinggal</p>
+              <label for="Alamat"></label><br />
+              <input
+                type="text"
+                id="Alamat"
+                name="Alamat"
+                placeholder="Masukan Alamat" /><br />
+            </div>
+          </section>
+          <p class="sosmedP">Informasi Sosial Media</p>
+          <section class="sosmed">
+            <div class="nomerWa">
+              <label for="No. HP"></label><br />
+              <input
+                type="text"
+                id="NomerWa"
+                name="NomerWa"
+                placeholder="Masukan Nomer WA" /><br />
+            </div>
+            <div class="Email">
+              <label for="Email"></label><br />
+              <input
+                type="email"
+                id="Email"
+                name="Email"
+                placeholder="Masukan Email" />
+            </div>
+          </section>
+          <div class="hobi">
+            <h3>Hobi Kamu:</h3>
+
+            <input type="checkbox" id="hobi1" name="hobi" value="membaca" />
+            <label for="hobi1">Membaca</label><br />
+
+            <input type="checkbox" id="hobi2" name="hobi" value="olahraga" />
+            <label for="hobi2">Olahraga</label><br />
+
+            <input type="checkbox" id="hobi3" name="hobi" value="memasak" />
+            <label for="hobi3">Memasak</label><br />
+
+            <input type="checkbox" id="hobi4" name="hobi" value="musik" />
+            <label for="hobi4">Mendengarkan Musik</label><br />
+
+            <input type="checkbox" id="hobi5" name="hobi" value="traveling" />
+            <label for="hobi5">Traveling</label><br />
+          </div>
+          <input type="submit" value="SUBMIT" class="submit" /><br />
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

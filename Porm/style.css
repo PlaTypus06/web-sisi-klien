@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #53629e;
+  background: linear-gradient(to right, #e3e3e3, #53629e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  margin-top: 20px;
+}
+
+.Head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-nama input {
+  width: 100%;
+  padding: 10px;
+  margin: 0px 0 0px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.formPengisian {
+  background-color: white;
+  border: solid 1px #3e4a79;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
+}
+
+.kedua {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.radio-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.radio input[type="radio"] {
+  margin: 0 15px 0 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.radio p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: black;
+}
+
+.TanggalLahir input {
+  width: 100%;
+  padding: 10px;
+  margin: 0px 0 0px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.TanggalLahir label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: black;
+}
+
+.TanggalLahir {
+  margin-bottom: 20px;
+}
+
+.KotaLahir input {
+  width: 100%;
+  padding: 10px;
+  margin: 0px 0 0px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.KotaLahir {
+  margin-bottom: 20px;
+}
+
+.KotaLahir label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: black;
+}
+
+.KotaLahir select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ketiga {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0px;
+  width: 100%;
+}
+
+.alamat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.alamat p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+  font-weight: 600;
+  color: black;
+}
+
+.alamat label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: black;
+}
+
+.alamat input {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#Alamat {
+  margin-bottom: 20px;
+}
+
+.sosmedP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+  font-weight: 600;
+  color: black;
+}
+
+.sosmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.sosmed p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: black;
+}
+
+.nomerWa input {
+  width: 100%;
+  padding: 10px;
+  margin: 0px 0 0px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Email input {
+  width: 100%;
+  padding: 10px;
+  margin: 0px 0 0px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.hobi input[type="checkbox"] {
+  margin: 0 10px 0 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.hobi h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: black;
+}
+
+.submit {
+  background-color: #53629e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.submit {
+  font-weight: bold;
+  color: white;
+  background-color: #3e4a79;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #2c3661;
+}
